@@ -25,7 +25,7 @@ def Calc_of_Variables(Vx,Vy,Va,I):
     Dx = 0.02
     D = 0.05    
     #Velocidad de la particula
-    vx = mt.sqrt(abs((2*Va*C)/(me))) #Velocidad en x
+    vx = mt.sqrt(abs((2*Va*C)/(me))) #Velocidad en x 
 
     distancia = []
     # Calculos para la primera placa
