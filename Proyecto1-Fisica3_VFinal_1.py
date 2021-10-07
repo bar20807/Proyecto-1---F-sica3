@@ -130,14 +130,14 @@ sclBarra_1.place(x=80,y=30)
 sclBarra_2=Scale(Ventana, label="Voltaje de aceleración",orient=HORIZONTAL,length=140,from_=5,to=100)
 sclBarra_2.place(x=80,y=170)
 
-#Parámetro global
-global param
+
 #Funciones de acción al momento de dar click
 def static_click():
     a = sclBarra.get()
     b = sclBarra_1.get()
     c = sclBarra_2.get()
     d=1
+#Parámetro global
     global param
     param = [int(a),int(b),int(c),d]
     Calc_of_Variables(param[0],param[1],param[2],param[3])
